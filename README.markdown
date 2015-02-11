@@ -273,7 +273,7 @@ Clears the widget of all tags — removes each tag it contains, so the **beforeT
 
     $("#myTags").tagit("removeAll");
 
-### clearAndRemoteAll()
+### clearAndRemoveAll()
 Clears the widget of all tags, and loads the widget with a new set of tags.
 
     var tags = ['mycology', 'mycorrhizal'];
