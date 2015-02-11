@@ -586,7 +586,7 @@
             });
         },
 
-        clearAndReloadTags: function( tags ){
+        clearAndReload: function( tags ){
             this.removeAll();
             for(var i = 0; i < tags.length; i++){
                 this.createTag( tags[i] );
